@@ -1,2 +1,2 @@
 # CustomerGrpc
-Sample Grpc service for customer management
+Sample Grpc customer service console chat
