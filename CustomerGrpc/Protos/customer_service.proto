@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package CustomerGrpc;
+
+// The customer service definition.
+service CustomerService {
+  // Creates customer
+  rpc JoinCustomerChat (JoinCustomerRequest) returns (JoinCustomerReply);
+  rpc SendMessageToChatRoom(stream ChatMessage) returns (stream ChatMessage);
+}
+
+message JoinCustomerRequest {
+  Customer customer = 1;
+}
+
+message JoinCustomerReply {
+  int32 room_id = 1;
+}
+
+message Customer {
+  string Id = 1;
+  string name = 2;
+  string color_in_console = 3;
+}
+
+message ChatMessage {
+  string customer_id = 1;
+  string customer_name = 5;
+  string message = 2;
+  string color = 3;
+  int32 room_id = 4;
+}

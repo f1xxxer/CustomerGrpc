@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerGrpc", "CustomerGrpc\CustomerGrpc.csproj", "{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerClient", "CustomerClient\CustomerClient.csproj", "{57C10117-20DB-4A88-8C57-60DEA627A881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8800EDCE-BDC9-400D-9C1A-B55E57F5D984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C10117-20DB-4A88-8C57-60DEA627A881}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
